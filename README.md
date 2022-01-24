@@ -16,3 +16,8 @@ region-codes
 us-east-1
 us-east-2
 etc
+
+## get cluster details 
+```
+kubectl get svc
+```
