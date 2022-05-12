@@ -1,4 +1,10 @@
+## configure AWS
+```
+aws configure
+```
+
 ## get aws user details
+
 ```
 aws sts get-caller-identity
 ```
@@ -12,9 +18,10 @@ aws eks list-clusters
 ```
 aws eks update-kubeconfig --region region-code --name cluster-name
 ```
+
 region-codes 
-us-east-1
-us-east-2
+`us-east-1`
+`us-east-2`
 etc
 
 ## get cluster details 
