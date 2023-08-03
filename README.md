@@ -14,7 +14,7 @@ aws sts get-caller-identity
 aws eks list-clusters
 ```
 
-## list aws eks clusters
+## generate kubeconfig file for given eks clusters
 ```
 aws eks update-kubeconfig --region region-code --name cluster-name
 ```
